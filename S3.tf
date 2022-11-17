@@ -1,3 +1,9 @@
+# Dependency Graph for IAM role is 
+
+IAM_Role ----> Instance profile-----> ec2 instance
+|                                          |
+-----IAM_Role_Policy-----------------------
+
 ############### S3 BUCKET #############################
 
 # policy config is taken from aws documents 
